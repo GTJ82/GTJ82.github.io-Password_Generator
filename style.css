@@ -4,6 +4,7 @@
     padding: 20px;
     background-color:lightslategray;
     width: 100%;
+    border-radius: 15px;
 }
 
 .display_box {
@@ -12,7 +13,6 @@
     border: dotted;
 }
     
-
 .first {
     background-color: red;
     color: seashell;
@@ -20,7 +20,6 @@
     left: 85px;
     border-radius: 20px;
     padding: 15px 30px;
-
 }
 
 .second {
