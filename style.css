@@ -1,4 +1,38 @@
+body{
+    background-color:lightcyan;
+}
+
+
+.main{
+    margin-top: 40px;
+    padding: 20px;
+    background-color:lightslategray;
+    width: 100%;
+}
+
 .display_box {
     height: 100px;
-    width: 600px;
+    width: 100%;
+    border: dotted;
+}
+    
+
+.first {
+    background-color: red;
+    color: seashell;
+    position: relative;
+    left: 85px;
+    border-radius: 20px;
+    padding: 15px 30px;
+
+}
+
+.second {
+    background-color: grey;
+    color: seashell;
+    position: relative;
+    left: 265px;
+    border-radius: 20px;
+    padding: 15px 30px;
+    
 }
