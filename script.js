@@ -1,7 +1,7 @@
-var specChar = [!@#$ %^&* ()_ +];
-var uppercase = [ABCDEFGHIJKLMNOPQRSTUVWXYZ];
-var lowercase = [abcdefghijklmnopqrstuvwxyz];
-var nums = [1234567890];
+var specChar = ["!,@,#,$,%,^,&,*,(,),_, +"];
+var uppercase = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+var lowercase = ["abcdefghijklmnopqrstuvwxyz"];
+var nums = ["1,2,3,4,5,6,7,8,9,0"];
 
 var passwordArray = [];
 var count;
@@ -13,25 +13,18 @@ function genPassword() {
     })
 
     function length() {
-        count = prompt("How long of a password would you like? Must bewtween 8 and 128 characters.")
+        count = prompt("How long of a password would you like? Must bewtween 8 and 128 characters.");
         if (count > 128) {
-            alert("Must be less than 128 characters!")
-            length()
+            alert("Must be less than 128 characters!");
+            length();
         }
         else if (count < 8 ){
-            alert("Must be at least 8 characters long!")
-            length()
+            alert("Must be at least 8 characters long!");
+            length();
         }
         else {
-            character()
+            character();
         }
-    }
-
-
-    for (let i = 0; i < charNumber; i++) {
-        var c = Math.floor(Math.random() * values.length + 1)
-        password += values.charAt(c)
-
     }
 
 }
@@ -55,7 +48,7 @@ function character(){
         character();
     }
     else{
-        generate(passwordArray,count)
+        generate(passwordArray,count);
     }
 
 }
@@ -64,8 +57,8 @@ function generate(passwordArray,passwordlength){
 var password = i;
 var passwordlength = parseInt(passwordlength);
     for(var k = 0; k < passwordlength; k++){
-        var whichArray = Math.floor(Math.random() * passwordArray.length)
+        var whichArray = Math.floor(Math.random() * passwordArray.length);
         password += passwordArray[whichArray[Math.floor(Math.random() * passwordArray[whichArray].length)]]
+        document.input.val=password
     }
 }
-

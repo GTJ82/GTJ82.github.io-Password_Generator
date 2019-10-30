@@ -7,13 +7,13 @@
     border-radius: 15px;
 }
 
-.display_box {
+.display-box {
     height: 100px;
     width: 100%;
     border: dotted;
 }
     
-.first {
+.generate {
     background-color: red;
     color: seashell;
     position: relative;
