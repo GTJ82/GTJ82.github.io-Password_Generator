@@ -18,6 +18,6 @@ pick at least two of the following conditons. Would they like uppercase letters,
 ## Pictures
 
 -Image of deployed site
-[Website Image](./assets/images/index@640.png)
+![Website Image](Assets/Images/Website-Image.png)
 
 
