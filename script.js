@@ -56,9 +56,8 @@ var passwordlength = parseInt(passwordlength);
         password += passwordArr[whichArray][Math.floor(Math.random() * passwordArr[whichArray].length)]
     }
     
-    document.getElementById('display-box').value = password
+    document.getElementById('display').value = password
 }
-
 
 
 
